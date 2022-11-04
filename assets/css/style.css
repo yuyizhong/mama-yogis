@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
 h1 {
-    color:red;
+    font-family: Hind, sans-serif;
+    color: #3d3d3d;
+    font-size: 20px;
+
 }
