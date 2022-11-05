@@ -75,23 +75,57 @@ a {
     color:rgb(238, 142, 26);
 }
 
-.hover {
+.active {
     color:rgb(238, 142, 26);
 }
 
+/* "main image and cover text" */
+
+#main-image {
+    height:600px;
+    width:100%;
+    background: url('../image/Main-Image.jpeg') no-repeat center center;
+}
+
+#cover-text, #cover-text h2 {
+    color:#3f0303;
+}
+
+#container {
+    height:600px;
+    width:100%;
+    position: relative;
+    /* overflow:hidden;     */
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Montserrat, sans-serif;    
+    letter-spacing: 4px; 
+    width: 90%;
+    height: 200px;
+    padding-left: 5px;
+    position: absolute;
+    bottom: 45%;   
+
+}
 
 /*Media queries*/
-/* For medium screen sizes from 460px wide up */
+/* For screen sizes from 460px wide up */
 
 @media screen and (min-width: 460px) {
-
 
     #logo-text {
         margin: 30px 0;
 
     }
-
+#cover-text {
+    bottom: 35%;
 }
+}
+
+
+
 
 
 /* For medium screen sizes from 580px wide up */
