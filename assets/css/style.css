@@ -14,6 +14,8 @@ body {
 
 }
 
+/* headings logo and navigation bar */
+
 h1,
 h2 {
     font-family: 'Poiret One', sans-serif;
@@ -25,8 +27,7 @@ h2 {
 #logo {
     display: flex;
     margin: 0 auto;
-    width: 100%;
-    height: 200px;
+    width: 100%;    
     justify-content: center;
     align-content: center;
 
@@ -56,7 +57,27 @@ a {
     color: inherit;
 }
 
+#nav-bar {
+    display: flex;
+    font-size: 110%;
+    letter-spacing: 2px;
+    flex-wrap: wrap;
+  
+}
 
+#nav-bar li {       
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+#nav-bar a:hover {
+    color:rgb(238, 142, 26);
+}
+
+.hover {
+    color:rgb(238, 142, 26);
+}
 
 
 /*Media queries*/
@@ -70,4 +91,17 @@ a {
 
     }
 
+}
+
+
+/* For medium screen sizes from 580px wide up */
+@media screen and (min-width: 580px) {
+#nav-bar {
+    justify-content: center;
+
+}
+
+#nav-bar li {
+    margin: 0 30px;
+}
 }
