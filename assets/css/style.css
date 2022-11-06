@@ -133,7 +133,7 @@ a {
 
 #classes {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;   
 
 }
 
@@ -145,6 +145,7 @@ a {
 }
 
 .flex {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,12 +183,7 @@ a {
 
 /* For screen sizes from 950px wide up */
 @media screen and (min-width: 950px) {
-    #classes {
-        column-count: 2;
-        display:flex;
-        flex-wrap: wrap;
-    }
-    .flex {
+        .flex {
         width: 50%;
     }
 }
