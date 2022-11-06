@@ -27,7 +27,7 @@ h2 {
 #logo {
     display: flex;
     margin: 0 auto;
-    width: 100%;    
+    width: 100%;
     justify-content: center;
     align-content: center;
 
@@ -62,104 +62,132 @@ a {
     font-size: 110%;
     letter-spacing: 2px;
     flex-wrap: wrap;
-  
+
 }
 
-#nav-bar li {       
+#nav-bar li {
     list-style-type: none;
     margin-left: 0;
     margin-right: 30px;
 }
 
 #nav-bar a:hover {
-    color:rgb(238, 142, 26);
+    color: rgb(238, 142, 26);
 }
 
 .active {
-    color:rgb(238, 142, 26);
+    color: rgb(238, 142, 26);
 }
 
 /* "main image and cover text" */
 
 #main-image {
-    height:600px;
-    width:100%;
+    height: 600px;
+    width: 100%;
     background: url('../image/main.jpeg') no-repeat center center;
-    
+
 }
 
-#cover-text, #cover-text h2 {
-    color:#3f0303;
+#cover-text,
+#cover-text h2 {
+    color: #3f0303;
 }
 
 #container {
-    height:600px;
-    width:100%;
+    height: 600px;
+    width: 100%;
     position: relative;
-    /* overflow:hidden;     */
+
 }
 
 #cover-text {
     font-size: 130%;
-    font-family: Montserrat, sans-serif;    
-    letter-spacing: 4px; 
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
     width: 90%;
     height: 200px;
     padding-left: 15px;
     position: absolute;
-    bottom: 45%; 
+    bottom: 45%;
 
 }
 
 /* "Yoga class and book link" */
 
-.class-image {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;   
-    margin-left: 33%;
-    margin-right: 33%;
-} 
 
-#classes h2 {
+
+#class-text {
     text-align: center;
     margin: 30px 0;
     text-transform: capitalize;
+    font-weight: 600;
+    font-size: 120%;
 
- }
+}
 
- #classes h3, #classes p {
+#classes h3,
+#classes p {
+    padding-left: 10px;
     text-align: center;
- }
- 
+}
 
+#classes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.class-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*Media queries*/
-/* For screen sizes from 460px wide up */
+/* For screen sizes from 500px wide up */
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 500px) {
 
     #logo-text {
         margin: 30px 0;
 
     }
-#cover-text {
-    bottom: 35%;
-}
-}
 
+    #cover-text {
+        bottom: 35%;
+    }
+}
 
 
 
 
 /* For screen sizes from 580px wide up */
 @media screen and (min-width: 580px) {
-#nav-bar {
-    justify-content: center;
+    #nav-bar {
+        justify-content: center;
 
+    }
+
+    #nav-bar li {
+        margin: 0 30px;
+    }
 }
 
-#nav-bar li {
-    margin: 0 30px;
-}
+/* For screen sizes from 950px wide up */
+@media screen and (min-width: 950px) {
+    #classes {
+        column-count: 2;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .flex {
+        width: 50%;
+    }
 }
