@@ -84,7 +84,8 @@ a {
 #main-image {
     height:600px;
     width:100%;
-    background: url('../image/Main-Image.jpeg') no-repeat center center;
+    background: url('../image/main.jpeg') no-repeat center center;
+    
 }
 
 #cover-text, #cover-text h2 {
@@ -104,7 +105,7 @@ a {
     letter-spacing: 4px; 
     width: 90%;
     height: 200px;
-    padding-left: 5px;
+    padding-left: 15px;
     position: absolute;
     bottom: 45%;   
 
