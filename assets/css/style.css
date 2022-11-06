@@ -113,9 +113,7 @@ a {
 
 }
 
-/* "Yoga class and book link" */
-
-
+/* "Yoga class and booking link" */
 
 #class-text {
     text-align: center;
@@ -134,7 +132,7 @@ a {
 
 #classes {
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 
 }
 
@@ -150,6 +148,18 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.booking-button {
+    Margin: 10px 20px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #3d3d3d;
+    background-color: #d688a5;
+    cursor: pointer;
+    border-radius: 5px;
+
 }
 
 /*Media queries*/
@@ -184,7 +194,7 @@ a {
 
 /* For screen sizes from 950px wide up */
 @media screen and (min-width: 950px) {
-        .flex {
+    .flex {
         width: 50%;
     }
 }
