@@ -69,7 +69,7 @@ a {
 #nav-bar li {
     list-style-type: none;
     margin-left: 0;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #nav-bar a:hover {
@@ -176,6 +176,7 @@ a {
     #cover-text {
         bottom: 35%;
     }
+
 }
 
 
@@ -189,7 +190,7 @@ a {
     }
 
     #nav-bar li {
-        margin: 0 30px;
+        margin: 0 20px;
     }
 }
 
@@ -204,30 +205,32 @@ a {
 /* Book in form */
 
 #book-image {
-    width:100%;
-    height:300px;
-}
-form {
-	width: 700px;
-	padding: 25px;
-	border-radius: 5px;
-	margin: 25px auto;
-	background-color: white;
+    width: 100%;
+    height: 300px;
 }
 
-/* fieldset {
-	border: none;
-	margin-top: 20px;
+form {
+    width: 90%;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 25px 10px;
+    background-color: white;
 }
+
+fieldset {
+    border: none;
+    margin-top: 25px;
+}
+
 .book-label {
-	display: block;
-} */
+    display: block;
+}
 
 legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 20px 0 10px 0;
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
 }
 
 label {
@@ -237,12 +240,39 @@ label {
 input[type=text],
 input[type=email] {
     height: 30px;
-    width: 90%;
+    width: 80%;
     padding-left: 10px;
-	margin: 0 auto;
+    margin: 0 auto;
+    border:1px solid #2e2c2c;
+    border-radius: 5px;
 }
+
 select {
     height: 36px;
     width: 100px;
     padding-left: 10px;
+    border:1px solid #2e2c2c;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: #d688a5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: white;
+    color: #d688a5;
+    border: 1px solid #3d3d3d; 
+    border-radius: 5px;  
+    cursor: pointer;
 }
