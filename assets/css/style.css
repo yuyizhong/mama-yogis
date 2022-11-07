@@ -255,6 +255,8 @@ select {
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: hind, sans-serif;
+    font-size: large;
 }
 
 input[type=submit] {    
@@ -272,10 +274,20 @@ input[type=reset] {
     padding: 0.75rem;
     background-color: white;
     color: #d688a5;
-    border: 1px solid #3d3d3d; 
+    border: 1px solid #2e2c2c; 
     border-radius: 5px;  
     cursor: pointer;
 }
 label span {
     font-size: 0.95rem;
+}
+
+textarea {
+    padding-left: 10px;
+    margin: 0 auto;
+    border:1px solid #2e2c2c;
+    border-radius: 5px;
+    width: 80%;
+    font-family: hind, sans-serif;
+    font-size: medium;
 }
