@@ -48,7 +48,7 @@
         </nav>
     </header>
     <section>
-        <form action="https://formdump.codeinstitute.net" method="POST">
+        <form action="thankyou.html" method="POST">
 
             <fieldset class="booking-box">
                 <legend>Book your Pregnancy Yoga class here!</legend>
@@ -64,29 +64,28 @@
                 <div>
                     <label for="email-field" class="book-label">Email</label>
                     <input id="email-field" type="email" name="email" placeholder="Your email" required>
-                </div>
-                <a href="thankyou.html" aria-label="Go to the booking page">
-                <input type="submit" class="book-label" value="Book Now">
-                </a>
-		<input type="reset" value="Reset Form">
-
-                <label for="age" class="block-label">Age</label>
-                <select id="age" name="age" required>
-                    <option value="under-20">Under 20</option>
-                    <option value="20s">20-29</option>
-                    <option value="30s">30-39</option>
-                    <option value="40s">40-49</option>
-                    <option value="50s">50-59</option>
-                    <option value="60+">60+</option>
+                </div>              
+                   
+                <label for="day" class="book-label">Pick a Day</label>
+                <select id="day" name="day" required>
+                    <option value="mon">Monday</option>
+                    <option value="tue">Tuesday</option>
+                    <option value="wed">Wednesday</option>
+                    <option value="thur">Thursday</option>
+                    <option value="Fri">Friday</option>
+                    <option value="Sat">Saturday</option>
                 </select>
 
+                <label for="time" class="book-label">Pick a Time</label>
+                <select id="time" name="time" required>
+                    <option value="9:30am-10:30am">10am-11am</option>
+                    <option value="11:00am-12:00pm">Tuesday</option>                    
+                </select>
+                <input type="submit" class="book-label" value="Book Now">
+                
+                <input type="reset" value="Reset Form">
             </fieldset>
-            <div class="booking-box">
-                <h3 class="text-center">Open times</h3>
-
-
-            </div>
-
+            
     </section>
     <section>Booking for Postnatal Yoga</section>
     <section>Booking for Mummy and Me class</section>

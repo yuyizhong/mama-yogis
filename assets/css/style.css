@@ -11,6 +11,7 @@ body {
     color: #3d3d3d;
     font-size: 20px;
     font-weight: 400;
+    background-color: whitesmoke;
 
 }
 
@@ -197,4 +198,46 @@ a {
     .flex {
         width: 50%;
     }
+}
+
+
+/* Book in form */
+form {
+	width: 700px;
+	padding: 25px;
+	border-radius: 5px;
+	margin: 25px auto;
+	background-color: white;
+}
+
+/* fieldset {
+	border: none;
+	margin-top: 20px;
+}
+.book-label {
+	display: block;
+} */
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+}
+select {
+    height: 36px;
+    width: 100px;
+    padding-left: 10px;
 }
