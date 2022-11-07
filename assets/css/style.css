@@ -163,45 +163,6 @@ a {
 
 }
 
-/*Media queries*/
-/* For screen sizes from 500px wide up */
-
-@media screen and (min-width: 500px) {
-
-    #logo-text {
-        margin: 30px 0;
-
-    }
-
-    #cover-text {
-        bottom: 35%;
-    }
-
-}
-
-
-
-
-/* For screen sizes from 580px wide up */
-@media screen and (min-width: 580px) {
-    #nav-bar {
-        justify-content: center;
-
-    }
-
-    #nav-bar li {
-        margin: 0 20px;
-    }
-}
-
-/* For screen sizes from 950px wide up */
-@media screen and (min-width: 950px) {
-    .flex {
-        width: 50%;
-    }
-}
-
-
 /* Book in form */
 
 #book-image {
@@ -210,10 +171,10 @@ a {
 }
 
 form {
-    width: 90%;
+    width: 65%;
     padding: 25px;
     border-radius: 20px;
-    margin: 25px 10px;
+    margin: 25px auto;
     background-color: white;
 }
 
@@ -291,3 +252,43 @@ textarea {
     font-family: hind, sans-serif;
     font-size: medium;
 }
+
+/*Media queries*/
+/* For screen sizes from 500px wide up */
+
+@media screen and (min-width: 500px) {
+
+    #logo-text {
+        margin: 30px 0;
+
+    }
+
+    #cover-text {
+        bottom: 35%;
+    }
+
+}
+
+
+
+
+/* For screen sizes from 580px wide up */
+@media screen and (min-width: 580px) {
+    #nav-bar {
+        justify-content: center;
+
+    }
+
+    #nav-bar li {
+        margin: 0 20px;
+    }
+}
+
+/* For screen sizes from 950px wide up */
+@media screen and (min-width: 950px) {
+    .flex {
+        width: 50%;
+    }
+}
+
+
