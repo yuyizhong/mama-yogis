@@ -174,10 +174,10 @@ form {
     width: 65%;
     padding: 45px;
     border-radius: 20px;
-    margin: 25px auto;
+    margin: 25px  auto 150px auto;
     background-color: whitesmoke;
     position: relative;
-}
+    }
 
 fieldset {
     border: none;
@@ -286,9 +286,13 @@ textarea {
 /* Footer */
 
 footer{
+    width:100%;
     margin-top:20px;
     height: 150px;
-    z-index: 1;    
+    z-index: 1;  
+    position: fixed;    
+    bottom: 0;  
+    background-color: rgba(58, 56, 56, 0.8);
 }
 footer h2 {
     text-transform: capitalize;
@@ -314,7 +318,7 @@ footer h2 {
     font-size: 140%;
     margin: 1%;
     padding: 5%;
-    color: #3d3d3d;
+    color: white;
 }
 
 /*Media queries*/
