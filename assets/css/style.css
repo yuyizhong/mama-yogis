@@ -286,23 +286,35 @@ textarea {
 /* Footer */
 
 footer{
+    margin-top:20px;
     height: 150px;
+    z-index: 1;    
 }
-
-.social-networks{
-    text-align: center;
-
-}
-
-.social-networks li{
-    display: inline;
-}
-
-.social-networks i{
+footer h2 {
+    text-transform: capitalize;
     font-size: 160%;
+    text-align: center;
+    color:#eb3175;
+    text-shadow: #d688a5;
+    z-index: 2;
+
+}
+#social-networks{
+    margin-top:20px;
+    display: flex;
+    justify-content:space-evenlycenter;
+    
+}
+
+#social-networks li{
+    list-style-type: none;
+}
+
+#social-networks i{
+    font-size: 140%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #3d3d3d;
 }
 
 /*Media queries*/
