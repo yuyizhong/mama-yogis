@@ -172,10 +172,11 @@ a {
 
 form {
     width: 65%;
-    padding: 25px;
+    padding: 45px;
     border-radius: 20px;
     margin: 25px auto;
     background-color: white;
+    position: relative;
 }
 
 fieldset {
@@ -253,13 +254,31 @@ textarea {
     font-size: medium;
 }
 
-/* input[type=text],
-input[type=email],
-select :hover {
-    border:#d688a5;
+#class-nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 80%;
+    position: absolute;
+    top:0;
+
 }
 
-input[type=reset] :hover {
+#class-nav li {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+#class-nav a:hover {
+    color:rgb(238, 142, 26);
+}
+
+
+/* select:hover {
+    border:#d688a5;
+}  */
+
+/*input[type=reset] :hover {
     background-color: white;
     color: #d688a5;
 }
@@ -268,6 +287,7 @@ input[type=submit] :hover {
     background-color: #d688a5;
     color: white;
 } */
+
 
 /*Media queries*/
 /* For screen sizes from 500px wide up */
