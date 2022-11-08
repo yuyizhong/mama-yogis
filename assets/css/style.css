@@ -302,7 +302,7 @@ footer h2 {
 #social-networks{
     margin-top:20px;
     display: flex;
-    justify-content:space-evenlycenter;
+    justify-content:space-evenly;
     
 }
 
