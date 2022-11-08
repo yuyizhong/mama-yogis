@@ -170,7 +170,7 @@ a {
     height: 300px;
 }
 
-form {
+#form {
     width: 65%;
     padding: 45px;
     border-radius: 20px;
@@ -292,7 +292,7 @@ footer{
     z-index: 1;  
     position: fixed;    
     bottom: 0;  
-    background-color: rgba(58, 56, 56, 0.8);
+    background-color: rgba(235, 235, 203, 0.8);
 }
 footer h2 {
     text-transform: capitalize;
@@ -318,7 +318,7 @@ footer h2 {
     font-size: 140%;
     margin: 1%;
     padding: 5%;
-    color: white;
+    color: #3d3d3d;
 }
 
 /*Media queries*/
