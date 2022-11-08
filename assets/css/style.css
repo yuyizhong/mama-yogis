@@ -253,6 +253,22 @@ textarea {
     font-size: medium;
 }
 
+/* input[type=text],
+input[type=email],
+select :hover {
+    border:#d688a5;
+}
+
+input[type=reset] :hover {
+    background-color: white;
+    color: #d688a5;
+}
+
+input[type=submit] :hover {
+    background-color: #d688a5;
+    color: white;
+} */
+
 /*Media queries*/
 /* For screen sizes from 500px wide up */
 
