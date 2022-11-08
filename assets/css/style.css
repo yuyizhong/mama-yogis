@@ -205,7 +205,7 @@ input[type=email] {
     width: 80%;
     padding-left: 10px;
     margin: 0 auto;
-    border:1px solid #2e2c2c;
+    border: 1px solid #2e2c2c;
     border-radius: 5px;
 }
 
@@ -213,7 +213,7 @@ select {
     height: 30px;
     width: 140px;
     padding-left: 10px;
-    border:1px solid #2e2c2c;
+    border: 1px solid #2e2c2c;
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -221,7 +221,7 @@ select {
     font-size: large;
 }
 
-input[type=submit] {    
+input[type=submit] {
     margin-left: 0.75rem;
     padding: 0.75rem;
     background-color: #d688a5;
@@ -231,15 +231,16 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=reset] {    
+input[type=reset] {
     margin-left: 0.75rem;
     padding: 0.75rem;
     background-color: white;
     color: #d688a5;
-    border: 1px solid #2e2c2c; 
-    border-radius: 5px;  
+    border: 1px solid #2e2c2c;
+    border-radius: 5px;
     cursor: pointer;
 }
+
 label span {
     font-size: 0.95rem;
 }
@@ -247,7 +248,7 @@ label span {
 textarea {
     padding-left: 10px;
     margin: 0 auto;
-    border:1px solid #2e2c2c;
+    border: 1px solid #2e2c2c;
     border-radius: 5px;
     width: 80%;
     font-family: hind, sans-serif;
@@ -259,7 +260,7 @@ textarea {
     flex-wrap: wrap;
     font-size: 80%;
     position: absolute;
-    top:0;
+    top: 0;
 
 }
 
@@ -267,28 +268,42 @@ textarea {
     list-style-type: none;
     margin-left: 0;
     margin-right: 15px;
-    color:#eb3175;
+    color: #eb3175;
 }
 
 #class-nav a:hover {
-    color:rgb(238, 142, 26);
+    color: rgb(238, 142, 26);
 }
 
 
-/* select:hover {
-    border:#d688a5;
-}  */
 
-/*input[type=reset] :hover {
-    background-color: white;
-    color: #d688a5;
+.data:hover {
+    background-color:#e9f5e8;
 }
 
-input[type=submit] :hover {
-    background-color: #d688a5;
-    color: white;
-} */
 
+
+/* Footer */
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 /*Media queries*/
 /* For screen sizes from 500px wide up */
@@ -327,5 +342,3 @@ input[type=submit] :hover {
         width: 50%;
     }
 }
-
-
