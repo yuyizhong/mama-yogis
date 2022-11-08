@@ -240,19 +240,23 @@ input[type=reset] {
     border-radius: 5px;
     cursor: pointer;
 }
+#feedback {
+    display:block;
+}
 
 label span {
     font-size: 0.95rem;
 }
 
 textarea {
-    padding-left: 10px;
-    margin: 0 auto;
+    
+    margin-bottom: 10px;
     border: 1px solid #2e2c2c;
     border-radius: 5px;
     width: 80%;
     font-family: hind, sans-serif;
     font-size: medium;
+    display: block;
 }
 
 #class-nav {
