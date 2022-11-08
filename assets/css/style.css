@@ -11,7 +11,7 @@ body {
     color: #3d3d3d;
     font-size: 20px;
     font-weight: 400;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 
 }
 
@@ -175,7 +175,7 @@ form {
     padding: 45px;
     border-radius: 20px;
     margin: 25px auto;
-    background-color: white;
+    background-color: whitesmoke;
     position: relative;
 }
 
@@ -267,6 +267,7 @@ textarea {
     list-style-type: none;
     margin-left: 0;
     margin-right: 15px;
+    color:#eb3175;
 }
 
 #class-nav a:hover {
