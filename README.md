@@ -44,4 +44,3 @@ This Booking page contains the booking form for individual class respectively. T
 This page will pop out after users submitting the form and it gives a thank you and conformation message to show a successful booking.
 
 
-
