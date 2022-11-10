@@ -164,7 +164,7 @@ a {
 
 }
 
-/* Book in form */
+/* Book now form */
 
 #book-image {
     width: 100%;
@@ -273,7 +273,7 @@ textarea {
     list-style-type: none;
     margin-left: 0;
     margin-right: 15px;
-    color: #eb3175;
+    color: #2e9207;
 }
 
 #class-nav a:hover {
