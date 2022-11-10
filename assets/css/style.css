@@ -293,15 +293,18 @@ textarea {
 footer{
     width:100%;
     margin-top:20px;
-    height: 150px;
+    height: 210px;
     z-index: 1;  
     position: fixed;    
     bottom: 0;  
     background-color: rgba(235, 235, 203, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer h2 {
     text-transform: capitalize;
-    font-size: 160%;
+    font-size: 120%;
     text-align: center;
     color:#eb3175;
     text-shadow: #d688a5;
@@ -311,7 +314,7 @@ footer h2 {
 #social-networks{
     margin-top:20px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     
 }
 
@@ -324,7 +327,20 @@ footer h2 {
     margin: 1%;
     padding: 5%;
     color: #3d3d3d;
+    z-index: 3
 }
+
+#back-top {
+   
+   
+}
+
+#back-top i {
+    font-size: 160%;
+    color:#eb3175
+    
+} 
+
 
 /*contact section*/
 
@@ -341,7 +357,7 @@ footer h2 {
     font-size: 110%;
     width: 100%;
     height:200px;
-    margin-bottom:400px;
+    margin-bottom:450px;
     margin-top:100px;
     text-align: center;
     letter-spacing: 1px;
@@ -353,6 +369,7 @@ th,
 td {
     border-bottom: 1px solid #2e2c2c;
 }
+
 
 
 /*Media queries*/
