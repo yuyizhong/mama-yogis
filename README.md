@@ -29,11 +29,11 @@ At this section, users will see where Yoga Mama is located, how to contact them 
 - **Footer**
 
 This Footer section is fixed to the bottom of the viewport and it is always there while users scroll up and down the page. 
-It contains a phrase to encourage users to take the action and start the class. Also the links to the relevant social media sites for Mama Yogis are evenly spaced at the bottom line. Each link will open to a new tab to allow easy navigation for users.
+It contains a phrase to encourage users to take the action and start the class. Also the links to the relevant social media sites for Mama Yogis are centered at the bottom line. Each link will open to a new tab to allow easy navigation for users.
 
 - **Back to Top icon**
 
-This back to top icon is fixed to the screen at the right bottom corner for users to quickly jump back to the top of the active page without scrolling.
+This back to top icon is fixed to the footer at the top center for users to quickly jump back to the top of the active page without scrolling.
 
 - **Book Now Page**
 
