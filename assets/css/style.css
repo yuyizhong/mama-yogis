@@ -374,33 +374,35 @@ td {
 /* Thank you page*/
 
 #thank-image {
-    height: 600px;
+    margin: 0;
+    height: 530px;
     width: 100%;
     background: url('../image/Thankyou1.jpeg') no-repeat center center;
         
 }
 
 #thank-container {
-    height: 800px;
+    height: 530px;
     width: 100%;
     position: relative;
     margin-bottom: 210px;
     color: white;
-
+    
 }
 
 #thank-message {
-    font-size: 130%;
+    font-size: 140%;
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
-    /* width: 90%;
+    width: 90%;
     height: 200px;
-    padding-left: 15px; */
+    padding-left: 15px; 
     position: absolute;
-
-    top: 25%;
+    top: 20%;
     text-align: center;
-
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #thank-message h2 {
