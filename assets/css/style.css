@@ -371,8 +371,46 @@ td {
 }
 
 
+/* Thank you page*/
+
+#thank-image {
+    height: 600px;
+    width: 100%;
+    background: url('../image/Thankyou1.jpeg') no-repeat center center;
+        
+}
+
+#thank-container {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 210px;
+    color: white;
+
+}
+
+#thank-message {
+    font-size: 130%;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    /* width: 90%;
+    height: 200px;
+    padding-left: 15px; */
+    position: absolute;
+
+    top: 25%;
+    text-align: center;
+
+}
+
+#thank-message h2 {
+    color:antiquewhite;
+}
+
 
 /*Media queries*/
+
+
 /* For screen sizes from 500px wide up */
 
 @media screen and (min-width: 500px) {
@@ -387,9 +425,6 @@ td {
     }
 
 }
-
-
-
 
 /* For screen sizes from 580px wide up */
 @media screen and (min-width: 580px) {
