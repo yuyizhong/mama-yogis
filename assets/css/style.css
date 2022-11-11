@@ -200,6 +200,10 @@ label {
     margin: 10px 15px 5px 0;
 }
 
+#class-form p {
+    Margin:20px 10px 0 0;
+}
+
 input[type=text],
 input[type=email] {
     height: 30px;
@@ -216,7 +220,6 @@ select {
     padding-left: 10px;
     border: 1px solid #2e2c2c;
     border-radius: 5px;
-    margin-top: 10px;
     margin-bottom: 10px;
     font-family: hind, sans-serif;
     font-size: large;
@@ -293,7 +296,7 @@ textarea {
 footer{
     width:100%;
     margin-top:20px;
-    height: 210px;
+    height: 200px;
     z-index: 1;  
     position: fixed;    
     bottom: 0;  
