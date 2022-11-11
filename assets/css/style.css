@@ -425,10 +425,15 @@ td {
     #cover-text {
         bottom: 35%;
     }
-
+    footer {
+        height: 150px;
+    }
+    #contact {
+        margin-bottom: 250px;
+    }
 }
 
-/* For screen sizes from 580px wide up */
+/* For middium screen sizes from 580px wide up */
 @media screen and (min-width: 580px) {
     #nav-bar {
         justify-content: center;
@@ -454,7 +459,7 @@ td {
 
 
 
-/* For screen sizes from 950px wide up */
+/* For large screen sizes from 950px wide up */
 @media screen and (min-width: 950px) {
     .flex {
         width: 50%;
