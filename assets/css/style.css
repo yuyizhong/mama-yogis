@@ -60,7 +60,7 @@ a {
 
 #nav-bar {
     display: flex;
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 1px;
     flex-wrap: wrap;
     margin-bottom: 10px;
@@ -270,7 +270,7 @@ textarea {
 #class-nav {
     display: flex;
     flex-wrap: wrap;
-    font-size: 80%;
+    font-size: 110%;
     position: absolute;
     top: 0;
 
