@@ -59,7 +59,7 @@
                 <!-- Method="post" was removed from each form syntax as the thank you page is not http implemented, therefore the post method is not suported. -->
                 <form action="thankyou.html">
 
-                    <fieldset id="class-form">
+                    <fieldset id="studio-class">
                         <legend>Book your Yoga class here!</legend>
 
                         <div>
@@ -96,7 +96,7 @@
                             <option value="Fri">Friday</option>
                             <option value="Sat">Saturday</option>
                         </select>
-                        
+
 
                         <label for="time" class="book-label">Pick a Time</label>
                         <select id="time" name="time" required>
@@ -107,8 +107,12 @@
                             <option value="3:00pm-3:30pm-mum-me">3:00pm-3:30pm Mummy-and-Me</option>
                             <option value="3:15pm-4:15pm-mum-me">3:15pm-4:15pmm Mummy-and-Me</option>
                         </select>
-                        
-                
+                </form>
+                <input id="textarea-submit" type="submit" value="Book Now">
+
+                <input id="textarea-reset" type="reset" value="Reset Form">
+
+                <form action="thankyou.html">
                     <fieldset id="online">
                         <legend>Sign up to access pre-recorded online-class!</legend>
 
@@ -146,18 +150,12 @@
                     <ul id="class-nav">
 
                         <li>
-                            <a href="#preyoga" aria-label="Go to the pregnancy yoga booking form">Pregnancy Yoga</a>
-                        </li>
-                        <li>
-                            <a href="#postyoga" aria-label="Go to the postnatal yoga booking form">Postnatal Yoga</a>
+                            <a href="#studio-class" aria-label="Go to the studio yoga class booking section">Studio
+                                Class</a>
                         </li>
 
                         <li>
-                            <a href="#mum-me" aria-label="Go to the mummy and me booking form">Mummy and Me</a>
-                        </li>
-
-                        <li>
-                            <a href="#online" aria-label="Go to the online yoga booking form">Online Class</a>
+                            <a href="#online" aria-label="Go to the online yoga booking section">Online Class</a>
                         </li>
 
                     </ul>
