@@ -175,7 +175,7 @@ a {
     width: 65%;
     padding: 45px;
     border-radius: 20px;
-    margin: 100px  auto 400px auto;
+    margin: 100px  auto 230px auto;
     background-color: whitesmoke;
     position: relative;
     }
@@ -227,6 +227,7 @@ select {
 
 input[type=submit] {
     margin-left: 0.75rem;
+    margin-bottom: 20px;
     padding: 0.75rem;
     background-color: #d688a5;
     color: white;
