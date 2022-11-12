@@ -392,21 +392,19 @@ td {
     height: 530px;
     width: 100%;
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     color: white;
 
 }
 
-#thank-message {
-    font-size: 140%;
-    font-family: Montserrat, sans-serif;
+#thank-message {    
+    font-family: Poiret, sans-serif;
     letter-spacing: 4px;
     width: 90%;
     height: 200px;
-    padding-left: 15px;
     position: absolute;
     top: 20%;
-    left: 45px;
+    left: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -442,6 +440,9 @@ td {
     #contact {
         margin-bottom: 250px;
     }
+    #thank-message {
+        left: 20px;
+    }
 }
 
 /* For middium screen sizes from 580px wide up */
@@ -474,5 +475,9 @@ td {
 @media screen and (min-width: 950px) {
     .flex {
         width: 50%;
+    }
+    #thank-message {
+        left: 40px;
+        
     }
 }
