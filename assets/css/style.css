@@ -387,6 +387,7 @@ td {
 }
 
 #thank-container {
+
     height: 530px;
     width: 100%;
     position: relative;
@@ -404,10 +405,12 @@ td {
     padding-left: 15px;
     position: absolute;
     top: 20%;
+    left: 45px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgba(231, 22, 168, 0.3);
 }
 
 #thank-message h2 {
