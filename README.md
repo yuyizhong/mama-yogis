@@ -29,11 +29,13 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
    - This section lists out the classes provided by the site owner. Each class is illustrated with a supporting photo image and few short text paragraphs. 
    - The photo images give the users a feeling of how the class looks like and the paragraphs provides the details of what benefits the users can expect from each class respectively.   
    - There is a "Book Now" button next to each class title, which will redirect the users to the relevent booking section at Book Now page. It is convenient for users to book the class right after identifying each class type, instead of going back to the top of the page for navigation to the booking page.
+   <img src="assets/image/readme-screenshot/class.PNG" width=100%>
 
 - **Contact Section**
 
    - At this section, users will see where Yoga Mama is located, how to contact them and their opening time.
    - The *tel:* and *mailto:* protocols are coded to telephone and email. After a click, the phone number will be added to the dial box ready to dial and users’ mail box will be opened with a recipient email address filled. 
+   <img src="assets/image/readme-screenshot/contact.PNG" width=100%>
 
 
 - **Footer**
@@ -44,14 +46,19 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
 - **Back to Top icon**
 
    - This back to top icon is fixed to the footer at the top center for users to quickly jump back to the top of the active page without scrolling.
+   <img src="assets/image/readme-screenshot/footer.PNG" width=100%>
 
 - **Book Now Page**
 
    - This Booking page contains the booking forms for studio class and online class. The Book Now and Sign Up button at the classes section will redirect the users to the specific booking form for the particular class. 
    - Furthermore, there is navigation bar by class type at the top of the form section to help user to quickly go to the right booking section.
+   <img src="assets/image/readme-screenshot/form1.PNG" width=100%>
+   <img src="assets/image/readme-screenshot/form2.PNG" width=100%>
 
 - **Thank You Page**
 
    - This page will pop out after users submitting the form and it gives a thank you / conformation message to show a successful booking.
+   <img src="assets/image/readme-screenshot/thankyou.PNG" width=100%>
+   
 
 
