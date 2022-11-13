@@ -75,11 +75,11 @@ a {
 
 #nav-bar a:hover {
     border-bottom: 1px solid #2e2c2c;
-    
+
 }
 
 .active {
-    border-bottom: 1px solid #2e2c2c;   
+    border-bottom: 1px solid #2e2c2c;
 }
 
 /* "main image and cover text" */
@@ -395,7 +395,7 @@ textarea {
 
 }
 
-#thank-message {    
+#thank-message {
     font-family: Poiret, sans-serif;
     letter-spacing: 4px;
     width: 90%;
@@ -435,9 +435,6 @@ textarea {
         height: 150px;
     }
 
-    #contact {
-        margin-bottom: 250px;
-    }
     #thank-message {
         left: 20px;
     }
@@ -461,21 +458,15 @@ textarea {
         margin-bottom: 200px;
 
     }
-
-    #contact {
-        margin-bottom: 200px;
-    }
 }
 
+    /* For large screen sizes from 950px wide up */
+    @media screen and (min-width: 950px) {
+        .class-flex {
+            width: 50%;
+        }
 
-
-/* For large screen sizes from 950px wide up */
-@media screen and (min-width: 950px) {
-    .class-flex {
-        width: 50%;
+        #thank-message {
+            left: 40px;
+        }
     }
-    #thank-message {
-        left: 40px;
-        
-    }
-}
