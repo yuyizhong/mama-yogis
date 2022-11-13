@@ -12,8 +12,6 @@ body {
     color: #3d3d3d;
     font-size: 20px;
     font-weight: 400;
-    /* background-color: whitesmoke; */
-
 }
 
 /* headings logo and navigation bar */
@@ -148,7 +146,7 @@ a {
     padding-left: 10px;
 }
 
-.flex {
+.class-flex {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -167,7 +165,88 @@ a {
 
 }
 
-/* Book now form */
+
+/*Contact section*/
+
+#strong {
+    font-family: Poiret, sans-serif;
+    font-size: large;
+
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 110%;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 450px;
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+
+th,
+td {
+    border-bottom: 1px solid #2e2c2c;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(235, 235, 203, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h2 {
+    text-transform: capitalize;
+    font-size: 120%;
+    text-align: center;
+    color: #eb3175;
+    text-shadow: #d688a5;
+    z-index: 2;
+
+}
+
+#social-networks {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#social-networks li {
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 140%;
+    margin: 1%;
+    padding: 5%;
+    color: #3d3d3d;
+    z-index: 3
+}
+
+/* Back to top */
+#back-top {}
+
+#back-top i {
+    font-size: 160%;
+    color: #eb3175
+}
+
+/* Book Now form */
 
 #book-image {
     width: 100%;
@@ -295,88 +374,6 @@ textarea {
 }
 
 
-
-/* Footer */
-
-footer {
-    width: 100%;
-    margin-top: 20px;
-    height: 200px;
-    z-index: 1;
-    position: fixed;
-    bottom: 0;
-    background-color: rgba(235, 235, 203, 0.8);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer h2 {
-    text-transform: capitalize;
-    font-size: 120%;
-    text-align: center;
-    color: #eb3175;
-    text-shadow: #d688a5;
-    z-index: 2;
-
-}
-
-#social-networks {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-
-}
-
-#social-networks li {
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 140%;
-    margin: 1%;
-    padding: 5%;
-    color: #3d3d3d;
-    z-index: 3
-}
-
-#back-top {}
-
-#back-top i {
-    font-size: 160%;
-    color: #eb3175
-}
-
-
-/*contact section*/
-
-#strong {
-    font-family: Poiret, sans-serif;
-    font-size: large;
-
-}
-
-#contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-size: 110%;
-    width: 100%;
-    height: 200px;
-    margin-bottom: 450px;
-    margin-top: 100px;
-    text-align: center;
-    letter-spacing: 1px;
-
-}
-
-
-th,
-td {
-    border-bottom: 1px solid #2e2c2c;
-}
-
-
 /* Thank you page*/
 
 #thank-image {
@@ -473,7 +470,7 @@ td {
 
 /* For large screen sizes from 950px wide up */
 @media screen and (min-width: 950px) {
-    .flex {
+    .class-flex {
         width: 50%;
     }
     #thank-message {
