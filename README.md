@@ -3,7 +3,7 @@
 
 Mama Yogis is presenting a life changing concept of practicing Yoga during prenatal and postpartum. The targeted people are local mums and mums to be who wish to increase their energy level, strengthen their body and mind for easier labour, quicker recovery and happier motherhood. The users of the site will be able to explore the range of the yoga classes provided, Opening time and location, and book a class which suits their time and fits their needs.
 
- ![Image](assets/image/readme-screenshot/amiresponsive.PNG)
+ <img src="assets/image/readme-screenshot/amiresponsive.PNG" width=100%>
 
 ## Features
 
@@ -22,6 +22,7 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
    - It hints that "Besides a Mum, you are still yourself. Mums can be fit, healthy and pretty just like the blooming flower." 
    - This image is fixed to the viewport of the block and it allows the cover message gradually scroll over it, which gets users attention to the message itself.
    - The cover message provides users the main yoga style and the overall benefits of practising yoga at those special life stages. It initiates the users' willing to take participation.
+   <img src="assets/image/readme-screenshot/mainpage-image.PNG" width=100%>
 
 - **Classes Section**
 

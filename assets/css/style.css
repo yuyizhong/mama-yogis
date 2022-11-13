@@ -120,7 +120,7 @@ a {
 
 #class-text {
     text-align: center;
-    margin: 100px auto;
+    margin: 100px 10px;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 120%;
