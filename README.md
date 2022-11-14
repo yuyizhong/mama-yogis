@@ -78,29 +78,58 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
 ##Features left to implement
 
 - As the submiitted data from form is currently not stored to the server, therefore a further implementation is to build a database.
-- Form can be simplified by using JavaScript to filter the different time for different class without add notes after each time selection.
+- Form can be simplified by using JavaScript to filter the different time for different class without adding notes next to each time options.
+- Reflexiable images will avoid having images pixelated or unnecessarily stretched. I will look into it When the time and resource become available. 
 
 ##Technologies##
 
 - *HTML*
- - The structure of the Website was developed using HTML as the main language.
+   - The structure of the Website was developed using HTML as the main language.
 - *CSS*
- - The Website was styled using custom CSS in an external file.
+   - The Website was styled and layed out using CSS in an external file.
 - *Visual Studio Code*
- - The website was developed using Visual Studio Code IDE
+   - The website was developed using Visual Studio Code IDE
 - *GitHub*
- - Source code is hosted on GitHub and delpoyed using Git Pages.
+   - Source code is hosted on GitHub and delpoyed using Git Pages.
 - *Git*
- - Used to commit and push code during the development opf the Website
+   - Used to commit and push code during the development of the Website
 - *Font Awesome*
- - Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+   - Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
 - *Tinyjpg*
- - https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+   - All the images used throughout the website were reduced size at https://tinyjpg.com/ 
 - *Favicon.io*
- - Favicon files were created at https://favicon.io/favicon-converter/
+   - Favicon files were created at https://favicon.io/favicon-converter/
 - *Am I Responsive*
- - Screen shots of the various device breakpoints for the site was produced at http://https://ui.dev/amiresponsive/
+   - Screen shots of the various device breakpoints for the website were produced at https://ui.dev/amiresponsive/
 
+
+##Testing##
+
+###Responsiveness###
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards on Chrome, Edge and Firefox.
+
+*Steps to test*:
+
+- Open browser and paste https://yuyizhong.github.io/mama-yogis to address bar to navigate.
+- Right click on the webpage and then inspect to Open the developer tools
+- Set to responsive and decrease width to 320px and the zoom to 50%
+- Click and drag the responsive window to maximum width
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+
+Actual:
+
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in Unfixed Bugs
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+Oukitel C21 Pro
+TCL 30 Pro
+iPhone SE
+Samsung Galaxy Tablet
+Accessibility
+Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
 
 
