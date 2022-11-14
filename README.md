@@ -149,9 +149,12 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
  - Testing was performed to ensure all navigation links on the respective pages, navigating to the correct pages and sections as expected. This was done by clicking on the navigation links located on the top of Home page, Book Now page and Thank you page.
  - Also there are links at classes section, which are supposed to redirect to the specific booking form. They were also worked as expected.
+ -The two links at the top of the booking form also linked to the right section after clicking it.
 
  *Back to top* and *Social Medial Links*
- -  Those two features are ocated at the footer. They were tested by clicking on each links and the 
+ -  Those two features are located at the footer. They were tested by clicking on each links. The active page went back to the top and the social Medias are opened at a new tab. 
+
+ 
 
 
    
