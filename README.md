@@ -80,6 +80,29 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
 - As the submiitted data from form is currently not stored to the server, therefore a further implementation is to build a database.
 - Form can be simplified by using JavaScript to filter the different time for different class without add notes after each time selection.
 
+##Technologies##
+
+- *HTML*
+ - The structure of the Website was developed using HTML as the main language.
+- *CSS*
+ - The Website was styled using custom CSS in an external file.
+- *Visual Studio Code*
+ - The website was developed using Visual Studio Code IDE
+- *GitHub*
+ - Source code is hosted on GitHub and delpoyed using Git Pages.
+- *Git*
+ - Used to commit and push code during the development opf the Website
+- *Font Awesome*
+ - Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+- *Tinyjpg*
+ - https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+- *Favicon.io*
+ - Favicon files were created at https://favicon.io/favicon-converter/
+- *Am I Responsive*
+ - Screen shots of the various device breakpoints for the site was produced at http://https://ui.dev/amiresponsive/
+
+
+
 
    
 
