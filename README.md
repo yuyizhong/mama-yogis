@@ -77,7 +77,9 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
 
 ##Features left to implement
 
-- Limited to what we have learnt
+- As the submiitted data from form is currently not stored to the server, therefore a further implementation is to build a database.
+- Form can be simplified by using JavaScript to filter the different time for different class without add notes after each time selection.
+
 
    
 
