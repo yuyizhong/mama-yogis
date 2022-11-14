@@ -43,7 +43,7 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
 
 - **Contact Section**
 
-   - At this section, users will see where Yoga Mama is located, how to contact them and their opening time.
+   - At this section, users will see where Mama Yogis is located, how to contact them and their opening time.
    - The *tel:* and *mailto:* protocols are coded to telephone and email. After a click, the phone number will be added to the dial box ready to dial and users’ mail box will be opened with a recipient email address filled. 
 
    <img src="assets/image/readme-screenshot/contact.PNG" width=100%>
@@ -63,7 +63,7 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
 - **Book Now Page**
 
    - This Booking page contains the booking forms for studio class and online class. The Book Now and Sign Up button at the classes section will redirect the users to the specific booking form for the particular class. 
-   - Furthermore, there is navigation bar by class type at the top of the form section to help user to quickly go to the right booking section.
+   - Furthermore, there is a navigation bar by class type at the top of the form section to help user to quickly go to the right booking section.
 
    <img src="assets/image/readme-screenshot/form1.PNG" width=100%>
    <img src="assets/image/readme-screenshot/form2.PNG" width=100%>
@@ -77,9 +77,9 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
 
 ## Features left to implement
 
-- As the submiitted data from form is currently not stored to the server, therefore a further implementation is to build a database.
+- As the submitted data from form is currently not stored to the server, therefore a further implementation is to build a database.
 - Form can be simplified by using JavaScript to filter the different time for different class without adding notes next to each time options.
-- Reflexiable images will avoid having images pixelated or unnecessarily stretched. I will look into it When the time and resource become available. 
+- Reflexiable images is ideal to inhance users navigation experience to avoid pixelated or unnecessarily stretched image. I will look into it When the time and source become available. 
 
 ## Technologies
 
@@ -88,7 +88,7 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
 - *CSS*
    - The Website was styled and layed out using CSS in an external file.
 - *GitPod*
-   - The developer platform can be worked remotely.
+   - This developer platform with VSCode editor can remotely work through web browser.
 - *GitHub*
    - Source code is hosted on GitHub and delpoyed using Git Pages.
 - *Git*
@@ -131,7 +131,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
  - Issue fund during the page development:
    - I originally used 3 identical forms for 3 studio yogo classes booking. All the lables are the same besides the options of the time are different for each class. 
  - Fix:
-   - I simplify the forms into 1. As without using JavaScript, I wont be able to provide the relevant time options based on the yoga class selected. I then only add one more radio choice for users to select the yoga class and then put all the time slots in the select drop down list, with class name next to each time slot. 
+   - I merged the forms into 1. As without using JavaScript, I wont be able to provide the relevant time options based on the yoga class selected. I add the radio choice for users to select the yoga class and then put all the time slots in the select drop down list, with class name next to each time slot. 
 
 ### Lighthouse Testing
 - Test on desktop
@@ -148,9 +148,9 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 *Navigation Links*
 
  - Testing was performed to ensure all navigation links on the respective pages, navigating to the correct pages and sections as expected. This was done by clicking on the navigation links located on the top of Home page, Book Now page and Thank you page.
- - At the main navigation bar of each page, it shows the active page with an underline under the corresponding navigation button. Also a hover effect also shows the underline after put the mouse over the links. They all appeared as expected.
+ - At the main navigation bar of each page, it shows the active page with an underline under the corresponding navigation button. Also a hover effect also shows the underline after put the mouse over the links. They were all appeared as expected.
  - Also there are links at classes section, which are supposed to redirect to the specific booking form. They were also worked as expected.
- -The two links at the top of the booking form also linked to the right section after clicking it.
+ - There are two links at the top of the booking form. They were also linked to the right section after clicking it.
 
  *Contact Information*
 
@@ -158,16 +158,16 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
   *Steps to test Telephone Number*
 
-     - Navigate to Mama Yogis - Home Page and click the phone number in contact details section (Phone: +44 203 666 9898)
+     - Navigate to Mama Yogis' Home Page and click the phone number in contact details section (Phone: +44 203 666 9898)
 
   *Result:*
 
-     - A window pop-out to suggest "Make a call from Samsung phone (active)".
-     - It is as expected.
+     - A window popped out to suggest "Make a call from Samsung phone (active)".
+     - It was as expected.
 
 
   *Steps to test Email Link*
-     - Navigate to Mama Yogis - Home Page and click the email address in contact details section (Email: info@mamayogis.co.uk)
+     - Navigate to Mama Yogis' Home Page and click the email address in contact details section (Email: info@mamayogis.co.uk)
 
   *Result:*
      - My outlook popped put open with Mama yogis email address at "to" box.
@@ -175,7 +175,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
  *Back to top* and *Social Medial Links*
  - Those two features are located at the footer. They were tested by clicking on each links. 
- - The active page went back to the top and the social Medias are opened at a new tab. 
+ - The active page went back to the top and the social Medias were opened at a new tab. 
 
 *Form and Thank You page Testing*
 
@@ -189,10 +189,10 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
    - By clicking on "Reset Form", all the data filled in would be cleared.
    - Over all, form and the thank you page performed as expected.
 
-### Validation Testing ###
+### Validator Testing ###
 
   *HTML Testings* were performed to Mama Yogis all three html pages through the [official W3C validator](https://validator.w3.org/). 
-  No Errors were fund on index.html, book.html and thankyou.html.
+  No Error was fund on index.html, book.html and thankyou.html.
 
   <img src="assets/image/readme-screenshot/w3html-index.PNG">
 
@@ -201,7 +201,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
   <img src="assets/image/readme-screenshot/w3html-thankyou.PNG">
  
   *CSS Testing* was performed to Mama Yogis style.css through the [official (jigsaw) validator](https://jigsaw.w3.org/). 
-  No Errors were fund.
+  No Error was fund.
 
   <img src="assets/image/readme-screenshot/w3c-css.PNG">
 
@@ -213,7 +213,7 @@ None.
 
 ### Version Control ###
 
-The site was created using the Visual Studio code editor at gitpod. It was then pushed to github to the remote repository ‘mama-yogis’ throughout the development.
+The site was created at gitpod. It was then pushed to github to the remote repository ‘mama-yogis’ throughout the development.
 
 The commonly used git commands to push code to the remote repository are as follows:
 
@@ -251,10 +251,9 @@ Navigate to the GitHub Repository you want to clone to use locally:
 I would like to give a big Thank You to my mentor Daisy Mc Girr! She presented me the amazing technologies to enhance the website developing and suggested interesting ideas to fullfil my inspiration. 
 
  ### Content ###
-
+ - Favicon files were created at [Favicon Generator](https://favicon.io/favicon-converter/)
  - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
- - I used [W3school](w3schools.com) to check the syntaxes and relevant attributes to get the effect 
-   to present my website.
+ - I used [W3school](w3schools.com) to check the syntaxes and relevant attributes to get my website presented the way I wanted.
  - To make the Calls to Action feature to the phone number and email address, I read [Elegant Themes Blog](https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number#:~:text=Adding%20an%20HTML%20Phone%20Number%20Call%20Link%20to%20your%20Website&text=Href%3Dtel%3A%20creates%20the%20call,the%20number%20it%20will%20call)
 
  ### Media ###
