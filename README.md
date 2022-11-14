@@ -75,13 +75,13 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
    <img src="assets/image/readme-screenshot/thankyou.PNG" width=100%>
 
 
-##Features left to implement
+## Features left to implement
 
 - As the submiitted data from form is currently not stored to the server, therefore a further implementation is to build a database.
 - Form can be simplified by using JavaScript to filter the different time for different class without adding notes next to each time options.
 - Reflexiable images will avoid having images pixelated or unnecessarily stretched. I will look into it When the time and resource become available. 
 
-##Technologies##
+## Technologies
 
 - *HTML*
    - The structure of the Website was developed using HTML as the main language.
@@ -103,9 +103,10 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
    - Screen shots of the various device breakpoints for the website were produced at https://ui.dev/amiresponsive/
 
 
-##Testing##
+## Testing
 
-###Responsiveness###
+### Responsiveness
+
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards on Chrome, Edge and Firefox.
 
 *Steps to test*:
@@ -114,22 +115,14 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 - Right click on the webpage and then inspect to Open the developer tools
 - Set to responsive and decrease width to 320px and the zoom to 50%
 - Click and drag the responsive window to maximum width
-Expected:
 
-Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+*Result*:
 
-Actual:
+- Website is responsive on all screen sizes and no images are pixelated or stretched. No text were overflowed or cut off. No contents were out of their box or get overlapped.
 
-Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in Unfixed Bugs
+### Accessibility
 
-Website was also opened on the following devices and no responsive issues were seen:
-
-Oukitel C21 Pro
-TCL 30 Pro
-iPhone SE
-Samsung Galaxy Tablet
-Accessibility
-Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+[WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
 
 
