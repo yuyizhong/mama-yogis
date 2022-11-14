@@ -109,7 +109,7 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
 
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards on Chrome, Edge and Firefox.
 
-*Steps to test*:
+*Steps to test:*
 
 - Open browser and paste https://yuyizhong.github.io/mama-yogis to address bar to navigate.
 - Right click on the webpage and then inspect to Open the developer tools
@@ -154,13 +154,13 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
  *Contact Information *
 
-- Testing were performed on the phone number and email address in the last section of the main page (contact details) to ensure "call-able" and "mail-able".
+- Testings were performed on the phone number and email address in the last section of the main page (contact details) to ensure "call-able" and "mail-able".
 
   *Steps to test Telephone Number*
 
      - Navigate to Mama Yogis - Home Page and click the phone number in contact details section (Phone: +44 203 666 9898)
 
-  *Result*:
+  *Result:*
 
      - A window pop-out to suggest "Make a call from Samsung phone (active)".
      - It is as expected.
@@ -169,34 +169,25 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
   *Steps to test Email Link*
      - Navigate to Mama Yogis - Home Page and click the email address in contact details section (Email: info@mamayogis.co.uk)
 
-  *Result*:
-     - My outlook poped put open with Mama yogis email address at "to" box.
+  *Result:*
+     - My outlook popped put open with Mama yogis email address at "to" box.
      - It functioned as expected.
 
  *Back to top* and *Social Medial Links*
  - Those two features are located at the footer. They were tested by clicking on each links. 
  - The active page went back to the top and the social Medias are opened at a new tab. 
 
-*Contact Information *
+*Form and Thank You page Testing*
 
-- Testing were performed on the phone number and email address in the last section of the main page (contact details) to ensure "call-able" and "mail-able".
+- Forms are tested by either filling in each section or omitting few fields and click on 'Book Now'/'Sign Up' or 'Reset Form'.
 
-  *Steps to test Telephone Number*
+  *Result:*
 
-     - Navigate to Mama Yogis - Home Page and click the phone number in contact details section (Phone: +44 203 666 9898)
-
-  *Result*:
-
-     - A window pop-out to suggest "Make a call from Samsung phone (active)".
-     - It is as expected.
-
-
-  *Steps to test Email Link*
-     - Navigate to Mama Yogis - Home Page and click the email address in contact details section (Email: info@mamayogis.co.uk)
-
-  *Result*:
-     - My outlook poped put open with Mama yogis email address at "to" box.
-     - It functioned as expected.
+   - Each required fields were supposed to put in a data, otherwise an error message popped out and form was not submitted.
+   - When a wrong email format was input, an error message popped out and form was not submitted.
+   - After all required fields were filled (with a correct email format), by clicking on "Book Now" or "Sign Up" button, it would redirect the user to a Thank you page for submitting confirmation.
+   - By clicking on "Reset Form", all the data filled in would be cleared.
+   - Over all, form and the thank you page performed as expected.
 
 
 
