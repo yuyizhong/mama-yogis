@@ -138,9 +138,20 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 <img src="assets/image/readme-screenshot/lighthouse-desktop.PNG">
 
+
 - Test on mobile
 
 <img src="assets/image/readme-screenshot/lighthouse-mobile.PNG">
+
+### Functional Testing
+
+*Navigation Links*
+
+ - Testing was performed to ensure all navigation links on the respective pages, navigating to the correct pages and sections as expected. This was done by clicking on the navigation links located on the top of Home page, Book Now page and Thank you page.
+ - Also there are links at classes section, which are supposed to redirect to the specific booking form. They were also worked as expected.
+
+ *Back to top* and *Social Medial Links*
+ -  Those two features are ocated at the footer. They were tested by clicking on each links and the 
 
 
    
