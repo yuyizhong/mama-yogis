@@ -87,8 +87,8 @@ Mama Yogis is presenting a life changing concept of practicing Yoga during prena
    - The structure of the Website was developed using HTML as the main language.
 - *CSS*
    - The Website was styled and layed out using CSS in an external file.
-- *Visual Studio Code*
-   - The website was developed using Visual Studio Code IDE
+- *GitPod*
+   - The developer platform can be worked remotely.
 - *GitHub*
    - Source code is hosted on GitHub and delpoyed using Git Pages.
 - *Git*
@@ -204,6 +204,24 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
   No Errors were fund.
 
   <img src="assets/image/readme-screenshot/w3c-css.PNG">
+
+
+### Unfixed Bugs ###
+None.
+
+## Deployment ##
+This website were developed at a remote developer platform Git pod. All the work stored at the local branch can be 'push' to GitHub. The compeleted repository will be hosted at GitHub.
+
+### To deploy to Github pages ###
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- At the GitHub mamayogis repository page, navigate to the Settings tab
+- From the menu on left select 'Pages'
+- From the source section drop-down menu, select the Branch: main
+- Click 'Save'
+- A live link will be displayed at top of the page in a banner when published successfully.
+The live link can be found here - https://yuyizhong.github.io/mama-yogis/
 
 
 
