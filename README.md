@@ -148,13 +148,59 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 *Navigation Links*
 
  - Testing was performed to ensure all navigation links on the respective pages, navigating to the correct pages and sections as expected. This was done by clicking on the navigation links located on the top of Home page, Book Now page and Thank you page.
+ - At the main navigation bar of each page, it shows the active page with an underline under the corresponding navigation button. Also a hover effect also shows the underline after put the mouse over the links. They all appeared as expected.
  - Also there are links at classes section, which are supposed to redirect to the specific booking form. They were also worked as expected.
  -The two links at the top of the booking form also linked to the right section after clicking it.
 
- *Back to top* and *Social Medial Links*
- -  Those two features are located at the footer. They were tested by clicking on each links. The active page went back to the top and the social Medias are opened at a new tab. 
+ *Contact Information *
 
- 
+- Testing were performed on the phone number and email address in the last section of the main page (contact details) to ensure "call-able" and "mail-able".
+
+  *Steps to test Telephone Number*
+
+     - Navigate to Mama Yogis - Home Page and click the phone number in contact details section (Phone: +44 203 666 9898)
+
+  *Result*:
+
+     - A window pop-out to suggest "Make a call from Samsung phone (active)".
+     - It is as expected.
+
+
+  *Steps to test Email Link*
+     - Navigate to Mama Yogis - Home Page and click the email address in contact details section (Email: info@mamayogis.co.uk)
+
+  *Result*:
+     - My outlook poped put open with Mama yogis email address at "to" box.
+     - It functioned as expected.
+
+ *Back to top* and *Social Medial Links*
+ - Those two features are located at the footer. They were tested by clicking on each links. 
+ - The active page went back to the top and the social Medias are opened at a new tab. 
+
+*Contact Information *
+
+- Testing were performed on the phone number and email address in the last section of the main page (contact details) to ensure "call-able" and "mail-able".
+
+  *Steps to test Telephone Number*
+
+     - Navigate to Mama Yogis - Home Page and click the phone number in contact details section (Phone: +44 203 666 9898)
+
+  *Result*:
+
+     - A window pop-out to suggest "Make a call from Samsung phone (active)".
+     - It is as expected.
+
+
+  *Steps to test Email Link*
+     - Navigate to Mama Yogis - Home Page and click the email address in contact details section (Email: info@mamayogis.co.uk)
+
+  *Result*:
+     - My outlook poped put open with Mama yogis email address at "to" box.
+     - It functioned as expected.
+
+
+
+
 
 
    
