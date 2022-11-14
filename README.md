@@ -210,7 +210,18 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 None.
 
 ## Deployment ##
-This website were developed at a remote developer platform Git pod. All the work stored at the local branch can be 'push' to GitHub. The compeleted repository will be hosted at GitHub.
+
+### Version Control ###
+
+The site was created using the Visual Studio code editor at gitpod. It was then pushed to github to the remote repository ‘mama-yogis’ throughout the development.
+
+The commonly used git commands to push code to the remote repository are as follows:
+
+- git add <file>/ git add . - This command was used to add the modified file(s) to the staging area before they are committed.
+
+- git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+
+- git push - This command was used to push all committed code to the remote repository on github.
 
 ### To deploy to Github pages ###
 
@@ -223,6 +234,17 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - A live link will be displayed at top of the page in a banner when published successfully.
 The live link can be found here - https://yuyizhong.github.io/mama-yogis/
 
+
+### Clone the Repository Code from github desktop ###
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+- The project will now of been cloned on your local machine for use.
 
 ## Credits ##
 

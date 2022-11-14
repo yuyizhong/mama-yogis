@@ -73,13 +73,9 @@ a {
     margin-right: 20px;
 }
 
-#nav-bar a:hover {
+#nav-bar a:hover, .active {
     border-bottom: 1px solid #2e2c2c;
 
-}
-
-.active {
-    border-bottom: 1px solid #2e2c2c;
 }
 
 /* "main image and cover text" */
