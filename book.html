@@ -23,7 +23,7 @@
         <a href="index.html" aria-label="logo">
 
             <div id="logo">
-                <h1 id="logo-text" class="logo-center" class="hover"> Mama Yogis </h1>
+                <h1 id="logo-text" class="logo-center"> Mama Yogis </h1>
                 <img id="logo-img" class="logo-center" src="assets/image/logo1.jpg"
                     alt="Abstract pregnant woman in yoga position pink with a heart in the belly icon">
             </div>
@@ -62,7 +62,7 @@
             <div id="form">
                 <!-- studio yoga classes booking form -->
                 <!-- Method="post" was removed from each form syntax as the thank you page is not http implemented, therefore the post method is not suported. -->
-                <form action="thankyou.html">
+                <form action="thankyou.html" Method="post">
 
                     <fieldset id="studio-class">
                         <legend>Book your Yoga class here!</legend>
@@ -94,6 +94,7 @@
 
                         <label for="day" class="book-label">Pick a Day</label>
                         <select id="day" name="day" required>
+                            <option value="  "></option>
                             <option value="mon">Monday</option>
                             <option value="tue">Tuesday</option>
                             <option value="wed">Wednesday</option>
@@ -115,9 +116,10 @@
                         <input id="textarea-submit" type="submit" value="Book Now">
 
                         <input id="textarea-reset" type="reset" value="Reset Form">
+                    </fieldset>
                 </form>
                 <!-- online yoga classes booking form -->
-                <form action="thankyou.html">
+                <form action="thankyou.html" Method="post">
                     <fieldset id="online">
                         <legend>Sign up to access pre-recorded online-class!</legend>
 
