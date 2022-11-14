@@ -133,6 +133,15 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
  - Fix:
    - I simplify the forms into 1. As without using JavaScript, I wont be able to provide the relevant time options based on the yoga class selected. I then only add one more radio choice for users to select the yoga class and then put all the time slots in the select drop down list, with class name next to each time slot. 
 
+### Lighthouse Testing
+- Test on desktop
+
+<img src="assets/image/readme-screenshot/lighthouse-desktop.PNG">
+
+- Test on mobile
+
+<img src="assets/image/readme-screenshot/lighthouse-mobile.PNG">
+
 
    
 
