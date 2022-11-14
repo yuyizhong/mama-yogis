@@ -189,6 +189,23 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
    - By clicking on "Reset Form", all the data filled in would be cleared.
    - Over all, form and the thank you page performed as expected.
 
+### Validation Testing ###
+
+  *HTML Testings* were performed to Mama Yogis all three html pages through the [official W3C validator](https://validator.w3.org/). 
+  No Errors were fund on index.html, book.html and thankyou.html.
+
+  <img src="assets/image/readme-screenshot/w3html-index.PNG">
+
+  <img src="assets/image/readme-screenshot/w3html-book.PNG">
+
+  <img src="assets/image/readme-screenshot/w3html-thankyou.PNG">
+ 
+  *CSS Testing* was performed to Mama Yogis style.css through the [official (jigsaw) validator](https://jigsaw.w3.org/). 
+  No Errors were fund.
+
+  <img src="assets/image/readme-screenshot/w3c-css.PNG">
+
+
 
 
 
