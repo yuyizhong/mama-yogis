@@ -224,8 +224,20 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 The live link can be found here - https://yuyizhong.github.io/mama-yogis/
 
 
+## Credits ##
 
+I would like to give a big Thank You to my mentor Daisy Mc Girr! She presented me the amazing technologies to enhance the website developing and suggested interesting ideas to fullfil my creation. 
 
+ ### Content ###
+
+ - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+ - I used [W3school](w3schools.com) to check the syntaxes and relevent attributes to get the effect 
+   which I want to present my website.
+ - To make the Calls to Action feature to the phone number and email address, I read [Elegant Themes Blog](https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number#:~:text=Adding%20an%20HTML%20Phone%20Number%20Call%20Link%20to%20your%20Website&text=Href%3Dtel%3A%20creates%20the%20call,the%20number%20it%20will%20call)
+
+ ### Media ###
+
+ - The photos used through out of the website are from [Adobe free photo stock](https://stock.adobe.com/)
 
 
 
